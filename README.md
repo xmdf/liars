@@ -1,2 +1,2 @@
-# cpp_template
-Template repo for C++ projects
+# liars.io
+Liars dice for tamdak
