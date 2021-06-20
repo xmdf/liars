@@ -6,9 +6,11 @@ project(LRS VERSION 0.0.1)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-# Add subdirectories
-add_subdirectory(src)
+set(ROOT "/Users/mattfalcone/home/root")
 
-# Add tests
+list(APPEND CMAKE_PREFIX_PATH "${ROOT}")
+
+
+add_subdirectory(src)
 enable_testing()
 add_subdirectory(tests)
